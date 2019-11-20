@@ -7,5 +7,37 @@
     ],
     "profile": {
       "name": "typicode"
-    }
+    },
+    "Purchase":[
+        {    
+            "id": 1,
+            "reward": "5yrsurprise",
+            "quantity": 100,
+            "validity": "2020-04-30",
+            "invoice_no": "12345"
+        }
+    ],
+    "Allocation":[
+        {
+            "id": 2,
+    "purchase": {
+        "id": 1,
+        "reward": "5yrsurprise",
+        "quantity": 100,
+        "validity": "2020-04-30",
+        "invoice_no": "12345"
+    },
+    "quantity": 80
+        }
+    ],
+    "Redemption" :[{
+        "resort_booking_id":"WBXSRO",
+    "booking_date":"2019-09-12",
+    "reward_code_id":1,
+    "validity":"2020-04-10",
+    "check_in_date":"2019-10-18",
+    "reward_code":"7yrSurprise",
+    "email":"sarathchandra.a@myntra.com"
+    }]
+
   }
