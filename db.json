@@ -1,32 +1,41 @@
 {
-	"Overview":[ {
-        "id":"counts",
-		"data":{"all":{"purchase_count": 50,
-		"allocation_count": 10,
-		"redeemed_count": 5},
-		"1":{"purchase_count": 20,
-			"allocation_count": 5,
-			"redeemed_count": 2},
-			"2":{"purchase_count": 20,
+	"Overview": [{
+		"id": "counts",
+		"data": {
+			"all": {
+				"purchase_count": 50,
+				"allocation_count": 10,
+				"redeemed_count": 5
+			},
+			"1": {
+				"purchase_count": 20,
+				"allocation_count": 5,
+				"redeemed_count": 2
+			},
+			"2": {
+				"purchase_count": 20,
 				"allocation_count": 4,
-				"redeemed_count": 2},
-				"3":{"purchase_count": 10,
-					"allocation_count": 1,
-					"redeemed_count": 1}
-	}
-	},{
-        "id":"categories",
-        "data":[{
-            "id": 1,
-            "name": "A"
-        },{
-            "id": 2,
-            "name": "B"
-        },{
-            "id": 3,
-            "name": "C"
-        }]
-		
+				"redeemed_count": 2
+			},
+			"3": {
+				"purchase_count": 10,
+				"allocation_count": 1,
+				"redeemed_count": 1
+			}
+		}
+	}, {
+		"id": "categories",
+		"data": [{
+			"id": 1,
+			"name": "A"
+		}, {
+			"id": 2,
+			"name": "B"
+		}, {
+			"id": 3,
+			"name": "C"
+		}]
+
 	}],
 	"user": [{
 		"id": "Registerations",
