@@ -1,43 +1,92 @@
 {
-	"Overview": [
+	"Overview": {
+		"purchase_count": 50,
+		"allocation_count": 10,
+		"redeemed_count": 5
+	},
+	"User": {
+		"Registerations": [
 
-	],
+			{
+				"email": "demo@myntra.com",
+				"name": "Demo User",
+				"is_registered": true,
+				"registration_date": "2019-11-11",
+				"allocation_date": "2019-11-20"
+			}
+		],
+		"Allocations": [
+
+			{
+				"id": 1,
+				"category": {
+					"id": 2,
+					"name": "B"
+				},
+				"email": "demo@myntra.com",
+				"name": "Demo User",
+				"is_registered": true,
+				"redeemed": true,
+				"created": "2019-11-20",
+				"expiration_date": "2020-02-20"
+			}
+		],
+		"Redeemtions": [{
+			"email": "demo@myntra.com",
+			"name": "Demo User",
+			"is_registered": true,
+			"registration_date": "2019-11-11",
+			"allocation_date": "2019-11-20"
+		}]
+	},
 	"Purchase": [{
 			"id": 1,
 			"reward": "bravo-us",
-			"reward_cat": "A",
+			"category": {
+				"name": "A",
+				"id": 3
+			},
 			"quantity": 20,
-			"purchase_date": "2019-11-01",
+			"created": "2019-11-01",
 			"validity": "2020-04-30",
 			"invoice_no": "RZYOU001"
 		}, {
 			"id": 2,
 			"reward": "wow-us",
-			"reward_cat": "B",
+			"category": {
+				"name": "B",
+				"id": 4
+			},
 			"quantity": 20,
-			"purchase_date": "2019-11-01",
+			"created": "2019-11-01",
 			"validity": "2020-04-30",
 			"invoice_no": "RZYOU002"
 		},
 		{
 			"id": 3,
 			"reward": "champ",
-			"reward_cat": "C",
+			"category": {
+				"name": "C",
+				"id": 5
+			},
 			"quantity": 10,
-			"purchase_date": "2019-11-01",
+			"created": "2019-11-01",
 			"validity": "2020-04-30",
 			"invoice_no": "RZYOU003"
 		}
 	],
 	"Allocation": [{
 			"id": 20,
-			"allocation_date": "2019-11-05",
+			"created": "2019-11-05",
 			"purchase": {
 				"id": 1,
 				"reward": "bravo-us",
-				"reward_cat": "A",
+				"category": {
+					"name": "A",
+					"id": 3
+				},
 				"quantity": 20,
-				"purchase_date": "2019-11-01",
+				"created": "2019-11-01",
 				"validity": "2020-04-30",
 				"invoice_no": "RZYOU001"
 			},
@@ -45,13 +94,16 @@
 		},
 		{
 			"id": 21,
-			"allocation_date": "2019-11-10",
+			"created": "2019-11-10",
 			"purchase": {
 				"id": 1,
 				"reward": "bravo-us",
-				"reward_cat": "A",
+				"category": {
+					"name": "A",
+					"id": 3
+				},
 				"quantity": 20,
-				"purchase_date": "2019-11-01",
+				"created": "2019-11-01",
 				"validity": "2020-04-30",
 				"invoice_no": "RZYOU001"
 			},
@@ -59,26 +111,32 @@
 		},
 		{
 			"id": 22,
-			"allocation_date": "2019-11-10",
+			"created": "2019-11-10",
 			"purchase": {
 				"id": 2,
 				"reward": "wow-us",
-				"reward_cat": "B",
+				"category": {
+					"name": "B",
+					"id": 4
+				},
 				"quantity": 20,
-				"purchase_date": "2019-11-01",
+				"created": "2019-11-01",
 				"validity": "2020-04-30",
 				"invoice_no": "RZYOU002"
 			},
 			"quantity": 4
 		}, {
 			"id": 23,
-			"allocation_date": "2019-11-15",
+			"created": "2019-11-15",
 			"purchase": {
 				"id": 3,
 				"reward": "champ",
-				"reward_cat": "C",
+				"category": {
+					"name": "C",
+					"id": 4
+				},
 				"quantity": 10,
-				"purchase_date": "2019-11-01",
+				"created": "2019-11-01",
 				"validity": "2020-04-30",
 				"invoice_no": "RZYOU003"
 			},
