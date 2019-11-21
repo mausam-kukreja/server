@@ -94,7 +94,6 @@
 	}, {
 		"id": "Allocations",
 		"data": [
-
 			{
 				"id": 1,
 				"category": {
@@ -175,7 +174,7 @@
 			}, {
 				"id": 7,
 				"category": {
-					"id": 3,
+					"id": 2,
 					"name": "B"
 				},
 				"email": "isha@you.com",
@@ -283,7 +282,7 @@
 			"reward": "bravo-us",
 			"category": {
 				"name": "A",
-				"id": 3
+				"id": 1
 			},
 			"quantity": 20,
 			"created": "2019-11-01",
@@ -294,7 +293,7 @@
 			"reward": "wow-us",
 			"category": {
 				"name": "B",
-				"id": 4
+				"id": 2
 			},
 			"quantity": 20,
 			"created": "2019-11-01",
@@ -306,7 +305,7 @@
 			"reward": "champ",
 			"category": {
 				"name": "C",
-				"id": 5
+				"id": 3
 			},
 			"quantity": 10,
 			"created": "2019-11-01",
@@ -322,7 +321,7 @@
 				"reward": "bravo-us",
 				"category": {
 					"name": "A",
-					"id": 3
+					"id": 1
 				},
 				"quantity": 20,
 				"created": "2019-11-01",
@@ -339,7 +338,7 @@
 				"reward": "bravo-us",
 				"category": {
 					"name": "A",
-					"id": 3
+					"id": 1
 				},
 				"quantity": 20,
 				"created": "2019-11-01",
@@ -356,7 +355,7 @@
 				"reward": "wow-us",
 				"category": {
 					"name": "B",
-					"id": 4
+					"id": 2
 				},
 				"quantity": 20,
 				"created": "2019-11-01",
@@ -372,7 +371,7 @@
 				"reward": "champ",
 				"category": {
 					"name": "C",
-					"id": 4
+					"id": 3
 				},
 				"quantity": 10,
 				"created": "2019-11-01",
