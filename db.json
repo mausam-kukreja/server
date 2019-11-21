@@ -149,7 +149,8 @@
 			"reward_cat": "A",
 			"validity": "2020-04-30",
 			"check_in_date": "2020-01-18",
-			"reward": "bravo-us",
+            "reward": "bravo-us",
+            "name":"john",
 			"email": "john@you.com"
 		},
 		{
@@ -158,7 +159,8 @@
 			"reward_cat": "A",
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-18",
-			"reward": "bravo-us",
+            "reward": "bravo-us",
+            "name":"abby",
 			"email": "abby@you.com"
 		},
 		{
@@ -167,7 +169,8 @@
 			"reward_cat": "B",
 			"validity": "2020-04-30",
 			"check_in_date": "2020-01-26",
-			"reward": "wow-us",
+            "reward": "wow-us",
+            "name":"sara",
 			"email": "sara@you.com"
 		},
 		{
@@ -176,7 +179,8 @@
 			"reward_cat": "B",
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-01",
-			"reward": "wow-us",
+            "reward": "wow-us",
+            "name":"jane",
 			"email": "jane@you.com"
 		},
 		{
@@ -185,7 +189,8 @@
 			"reward_cat": "C",
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-15",
-			"reward": "champ",
+            "reward": "champ",
+            "name":"dave",
 			"email": "dave@you.com"
 		}
 	]
