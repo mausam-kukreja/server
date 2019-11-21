@@ -4,8 +4,9 @@
 		"allocation_count": 10,
 		"redeemed_count": 5
 	},
-	"User": {
-		"Registerations": [
+	"user": [{
+		"id": "Registerations",
+		"data": [
 
 			{
 				"email": "john@you.com",
@@ -56,8 +57,10 @@
 				"registration_date": "2019-11-21",
 				"allocation_date": "2019-11-20"
 			}
-		],
-		"Allocations": [
+		]
+	}, {
+		"id": "Allocations",
+		"data": [
 
 			{
 				"id": 1,
@@ -185,8 +188,10 @@
 				"created": "2019-11-20",
 				"expiration_date": "2020-04-30"
 			}
-		],
-		"Redeemtions": [{
+		]
+	}, {
+		"id": "Redeemtions",
+		"data": [{
 				"email": "john@you.com",
 				"name": "john",
 				"booking_date": "2019-11-11",
@@ -239,7 +244,7 @@
 
 			}
 		]
-	},
+	}],
 	"Purchase": [{
 			"id": 1,
 			"reward": "bravo-us",
