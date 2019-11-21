@@ -20,15 +20,128 @@
 			{
 				"id": 1,
 				"category": {
+					"id": 1,
+					"name": "A"
+				},
+				"email": "john@you.com",
+				"name": "john",
+				"is_registered": true,
+				"redeemed": true,
+				"created": "2019-11-11",
+				"expiration_date": "2020-04-30"
+			},
+			{
+				"id": 2,
+				"category": {
+					"id": 1,
+					"name": "A"
+				},
+				"email": "abby@you.com",
+				"name": "abby",
+				"is_registered": true,
+				"redeemed": true,
+				"created": "2019-11-11",
+				"expiration_date": "2020-04-30"
+			},
+			{
+				"id": 3,
+				"category": {
 					"id": 2,
 					"name": "B"
 				},
-				"email": "demo@myntra.com",
-				"name": "Demo User",
+				"email": "sara@you.com",
+				"name": "sara",
+				"is_registered": true,
+				"redeemed": true,
+				"created": "2019-11-12",
+				"expiration_date": "2020-04-30"
+			},
+			{
+				"id": 4,
+				"category": {
+					"id": 2,
+					"name": "B"
+				},
+				"email": "jane@you.com",
+				"name": "jane",
+				"is_registered": true,
+				"redeemed": true,
+				"created": "2019-11-12",
+				"expiration_date": "2020-04-30"
+			},
+			{
+				"id": 5,
+				"category": {
+					"id": 3,
+					"name": "C"
+				},
+				"email": "dave@you.com",
+				"name": "dave",
 				"is_registered": true,
 				"redeemed": true,
 				"created": "2019-11-20",
-				"expiration_date": "2020-02-20"
+				"expiration_date": "2020-04-30"
+			},
+			{
+				"id": 6,
+				"category": {
+					"id": 2,
+					"name": "B"
+				},
+				"email": "marry@you.com",
+				"name": "mary",
+				"is_registered": true,
+				"redeemed": false,
+				"created": "2019-11-20",
+				"expiration_date": "2020-04-30"
+			}, {
+				"id": 7,
+				"category": {
+					"id": 3,
+					"name": "B"
+				},
+				"email": "isha@you.com",
+				"name": "isha",
+				"is_registered": true,
+				"redeemed": false,
+				"created": "2019-11-20",
+				"expiration_date": "2020-04-30"
+			}, {
+				"id": 8,
+				"category": {
+					"id": 1,
+					"name": "A"
+				},
+				"email": "diana@you.com",
+				"name": "diana",
+				"is_registered": false,
+				"redeemed": false,
+				"created": "2019-11-20",
+				"expiration_date": "2020-04-30"
+			}, {
+				"id": 9,
+				"category": {
+					"id": 2,
+					"name": "A"
+				},
+				"email": "vinny@you.com",
+				"name": "vinny",
+				"is_registered": false,
+				"redeemed": false,
+				"created": "2019-11-20",
+				"expiration_date": "2020-04-30"
+			}, {
+				"id": 10,
+				"category": {
+					"id": 2,
+					"name": "A"
+				},
+				"email": "gilly@you.com",
+				"name": "gilly",
+				"is_registered": false,
+				"redeemed": false,
+				"created": "2019-11-20",
+				"expiration_date": "2020-04-30"
 			}
 		],
 
@@ -150,7 +263,10 @@
 	"Redemption": [{
 			"resort_booking_id": "WBXSRO",
 			"booking_date": "2019-11-11",
-			"reward_cat": "A",
+			"category": {
+				"id": 1,
+				"name": "A"
+			},
 			"validity": "2020-04-30",
 			"check_in_date": "2020-01-18",
 			"reward": "bravo-us",
@@ -160,7 +276,10 @@
 		{
 			"resort_booking_id": "ZBEHRU",
 			"booking_date": "2019-11-11",
-			"reward_cat": "A",
+			"category": {
+				"id": 1,
+				"name": "A"
+			},
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-18",
 			"reward": "bravo-us",
@@ -170,7 +289,10 @@
 		{
 			"resort_booking_id": "NPCUWS",
 			"booking_date": "2019-11-12",
-			"reward_cat": "B",
+			"category": {
+				"id": 2,
+				"name": "B"
+			},
 			"validity": "2020-04-30",
 			"check_in_date": "2020-01-26",
 			"reward": "wow-us",
@@ -180,7 +302,10 @@
 		{
 			"resort_booking_id": "CRUMSD",
 			"booking_date": "2019-11-12",
-			"reward_cat": "B",
+			"category": {
+				"id": 2,
+				"name": "B"
+			},
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-01",
 			"reward": "wow-us",
@@ -190,7 +315,10 @@
 		{
 			"resort_booking_id": "XUETQU",
 			"booking_date": "2019-11-20",
-			"reward_cat": "C",
+			"category": {
+				"id": 3,
+				"name": "C"
+			},
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-15",
 			"reward": "champ",
