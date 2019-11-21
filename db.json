@@ -143,7 +143,7 @@
 					"name": "B"
 				},
 				"email": "jane@you.com",
-				"name": "jane",
+				"name": "Jane Asher",
 				"is_registered": true,
 				"redeemed": true,
 				"created": "2019-11-12",
@@ -169,7 +169,7 @@
 					"name": "B"
 				},
 				"email": "mary@you.com",
-				"name": "mary",
+				"name": "Mary Ann",
 				"is_registered": true,
 				"redeemed": false,
 				"created": "2019-11-20",
@@ -273,7 +273,7 @@
 			},
 			{
 				"id": 25,
-				"name": "jane",
+				"name": "Jane Asher",
 				"email": "jane@you.com",
 				"booking_date": "2019-11-12",
 				"resort_booking_id": "CRUMSD",
@@ -458,7 +458,7 @@
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-01",
 			"reward": "wow-us",
-			"name": "jane",
+			"name": "Jane Asher",
 			"email": "jane@you.com"
 		},
 		{
