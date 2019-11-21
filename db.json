@@ -8,10 +8,52 @@
 		"Registerations": [
 
 			{
-				"email": "demo@myntra.com",
-				"name": "Demo User",
-				"is_registered": true,
-				"registration_date": "2019-11-11",
+				"email": "john@you.com",
+				"name": "john",
+				"redeemed": true,
+				"registration_date": "2019-11-13",
+				"allocation_date": "2019-11-11"
+			},
+			{
+				"email": "abby@you.com",
+				"name": "abby",
+				"redeemed": true,
+				"registration_date": "2019-11-12",
+				"allocation_date": "2019-11-11"
+			},
+			{
+				"email": "sara@you.com",
+				"name": "sara",
+				"redeemed": true,
+				"registration_date": "2019-11-12",
+				"allocation_date": "2019-11-12"
+			},
+			{
+				"email": "jane@you.com",
+				"name": "jane",
+				"redeemed": true,
+				"registration_date": "2019-11-15",
+				"allocation_date": "2019-11-12"
+			},
+			{
+				"email": "dave@you.com",
+				"name": "dave",
+				"redeemed": true,
+				"registration_date": "2019-11-21",
+				"allocation_date": "2019-11-20"
+			},
+			{
+				"email": "marry@you.com",
+				"name": "marry",
+				"redeemed": false,
+				"registration_date": "2019-11-22",
+				"allocation_date": "2019-11-20"
+			},
+			{
+				"email": "isha@you.com",
+				"name": "isha",
+				"redeemed": false,
+				"registration_date": "2019-11-21",
 				"allocation_date": "2019-11-20"
 			}
 		],
