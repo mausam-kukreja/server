@@ -6,25 +6,25 @@
 				"purchase_count": 50,
 				"allocation_count": 10,
 				"redeemed_count": 5,
-				"category":"Overview"
+				"category": "Overview"
 			},
 			"1": {
 				"purchase_count": 20,
 				"allocation_count": 5,
 				"redeemed_count": 2,
-				"category":"A"
+				"category": "A"
 			},
 			"2": {
 				"purchase_count": 20,
 				"allocation_count": 4,
 				"redeemed_count": 2,
-				"category":"B"
+				"category": "B"
 			},
 			"3": {
 				"purchase_count": 10,
 				"allocation_count": 1,
 				"redeemed_count": 1,
-				"category":"C"
+				"category": "C"
 			}
 		}
 	}, {
@@ -47,49 +47,49 @@
 
 			{
 				"email": "john@you.com",
-				"name": "john",
+				"name": "John Smith",
 				"redeemed": true,
 				"registration_date": "2019-11-13",
 				"allocation_date": "2019-11-11"
 			},
 			{
 				"email": "abby@you.com",
-				"name": "abby",
+				"name": "Abby Elliot",
 				"redeemed": true,
 				"registration_date": "2019-11-12",
 				"allocation_date": "2019-11-11"
 			},
 			{
 				"email": "sara@you.com",
-				"name": "sara",
+				"name": "Sara Paxton",
 				"redeemed": true,
 				"registration_date": "2019-11-12",
 				"allocation_date": "2019-11-12"
 			},
 			{
 				"email": "jane@you.com",
-				"name": "jane",
+				"name": "Jane Asher",
 				"redeemed": true,
 				"registration_date": "2019-11-15",
 				"allocation_date": "2019-11-12"
 			},
 			{
 				"email": "dave@you.com",
-				"name": "dave",
+				"name": "Dave Mathews",
 				"redeemed": true,
 				"registration_date": "2019-11-21",
 				"allocation_date": "2019-11-20"
 			},
 			{
-				"email": "marry@you.com",
-				"name": "marry",
+				"email": "mary@you.com",
+				"name": "Mary Ann",
 				"redeemed": false,
 				"registration_date": "2019-11-22",
 				"allocation_date": "2019-11-20"
 			},
 			{
 				"email": "isha@you.com",
-				"name": "isha",
+				"name": "Isha Deol",
 				"redeemed": false,
 				"registration_date": "2019-11-21",
 				"allocation_date": "2019-11-20"
@@ -104,7 +104,7 @@
 					"name": "A"
 				},
 				"email": "john@you.com",
-				"name": "john",
+				"name": "John Smith",
 				"is_registered": true,
 				"redeemed": true,
 				"created": "2019-11-11",
@@ -117,7 +117,7 @@
 					"name": "A"
 				},
 				"email": "abby@you.com",
-				"name": "abby",
+				"name": "Abby Elliot",
 				"is_registered": true,
 				"redeemed": true,
 				"created": "2019-11-11",
@@ -130,7 +130,7 @@
 					"name": "B"
 				},
 				"email": "sara@you.com",
-				"name": "sara",
+				"name": "Sara Paxton",
 				"is_registered": true,
 				"redeemed": true,
 				"created": "2019-11-12",
@@ -156,7 +156,7 @@
 					"name": "C"
 				},
 				"email": "dave@you.com",
-				"name": "dave",
+				"name": "Dave Mathews",
 				"is_registered": true,
 				"redeemed": true,
 				"created": "2019-11-20",
@@ -168,7 +168,7 @@
 					"id": 2,
 					"name": "B"
 				},
-				"email": "marry@you.com",
+				"email": "mary@you.com",
 				"name": "mary",
 				"is_registered": true,
 				"redeemed": false,
@@ -181,7 +181,7 @@
 					"name": "B"
 				},
 				"email": "isha@you.com",
-				"name": "isha",
+				"name": "Isha Deol",
 				"is_registered": true,
 				"redeemed": false,
 				"created": "2019-11-20",
@@ -193,7 +193,7 @@
 					"name": "A"
 				},
 				"email": "diana@you.com",
-				"name": "diana",
+				"name": "Diana Scully",
 				"is_registered": false,
 				"redeemed": false,
 				"created": "2019-11-20",
@@ -205,7 +205,7 @@
 					"name": "A"
 				},
 				"email": "vinny@you.com",
-				"name": "vinny",
+				"name": "Vinny Pooh",
 				"is_registered": false,
 				"redeemed": false,
 				"created": "2019-11-20",
@@ -217,7 +217,7 @@
 					"name": "A"
 				},
 				"email": "gilly@you.com",
-				"name": "gilly",
+				"name": "Gilly Paul",
 				"is_registered": false,
 				"redeemed": false,
 				"created": "2019-11-20",
@@ -229,7 +229,7 @@
 		"data": [{
 				"id": 22,
 				"email": "john@you.com",
-				"name": "john",
+				"name": "John Smith",
 				"booking_date": "2019-11-11",
 				"resort_booking_id": "WBXSRO",
 				"category": {
@@ -242,7 +242,7 @@
 			{
 				"id": 23,
 				"email": "abby@you.com",
-				"name": "abby",
+				"name": "Abby Elliot",
 				"booking_date": "2019-11-11",
 				"resort_booking_id": "ZBEHRU",
 				"category": {
@@ -258,7 +258,7 @@
 			},
 			{
 				"id": 24,
-				"name": "sara",
+				"name": "Sara Paxton",
 				"email": "sara@you.com",
 
 				"booking_date": "2019-11-12",
@@ -289,7 +289,7 @@
 			},
 			{
 				"id": 26,
-				"name": "dave",
+				"name": "Dave Mathews",
 				"email": "dave@you.com",
 				"booking_date": "2019-11-20",
 				"resort_booking_id": "XUETQU",
@@ -419,7 +419,7 @@
 			"validity": "2020-04-30",
 			"check_in_date": "2020-01-18",
 			"reward": "bravo-us",
-			"name": "john",
+			"name": "John Smith",
 			"email": "john@you.com"
 		},
 		{
@@ -432,7 +432,7 @@
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-18",
 			"reward": "bravo-us",
-			"name": "abby",
+			"name": "Abby Elliot",
 			"email": "abby@you.com"
 		},
 		{
@@ -445,7 +445,7 @@
 			"validity": "2020-04-30",
 			"check_in_date": "2020-01-26",
 			"reward": "wow-us",
-			"name": "sara",
+			"name": "Sara Paxton",
 			"email": "sara@you.com"
 		},
 		{
@@ -471,7 +471,7 @@
 			"validity": "2020-04-30",
 			"check_in_date": "2020-02-15",
 			"reward": "champ",
-			"name": "dave",
+			"name": "Dave Mathews",
 			"email": "dave@you.com"
 		}
 	]
