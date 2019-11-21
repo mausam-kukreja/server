@@ -93,8 +93,7 @@
 		]
 	}, {
 		"id": "Allocations",
-		"data": [
-			{
+		"data": [{
 				"id": 1,
 				"category": {
 					"id": 1,
@@ -224,18 +223,28 @@
 	}, {
 		"id": "Redeemtions",
 		"data": [{
+				"id": 22,
 				"email": "john@you.com",
 				"name": "john",
 				"booking_date": "2019-11-11",
 				"resort_booking_id": "WBXSRO",
+				"category": {
+					"id": 1,
+					"name": "A"
+				},
 				"check_in_date": "2020-01-18"
 
 			},
 			{
+				"id": 23,
 				"email": "abby@you.com",
 				"name": "abby",
 				"booking_date": "2019-11-11",
 				"resort_booking_id": "ZBEHRU",
+				"category": {
+					"id": 1,
+					"name": "A"
+				},
 
 
 				"check_in_date": "2020-02-18"
@@ -244,20 +253,30 @@
 
 			},
 			{
+				"id": 24,
 				"name": "sara",
 				"email": "sara@you.com",
 
 				"booking_date": "2019-11-12",
 				"resort_booking_id": "NPCUWS",
+				"category": {
+					"id": 2,
+					"name": "B"
+				},
 
 				"check_in_date": "2020-01-26"
 
 			},
 			{
+				"id": 25,
 				"name": "jane",
 				"email": "jane@you.com",
 				"booking_date": "2019-11-12",
 				"resort_booking_id": "CRUMSD",
+				"category": {
+					"id": 2,
+					"name": "B"
+				},
 
 
 				"check_in_date": "2020-02-01"
@@ -265,10 +284,15 @@
 
 			},
 			{
+				"id": 26,
 				"name": "dave",
 				"email": "dave@you.com",
 				"booking_date": "2019-11-20",
 				"resort_booking_id": "XUETQU",
+				"category": {
+					"id": 3,
+					"name": "C"
+				},
 
 
 				"check_in_date": "2020-02-15"
