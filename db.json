@@ -186,17 +186,59 @@
 				"expiration_date": "2020-04-30"
 			}
 		],
-
 		"Redeemtions": [{
-			"email": "demo@myntra.com",
-			"name": "Demo User",
-			"is_registered": true,
-			"booking_date": "2019-11-11",
-			"resort_booking_id": "WBXSRO",
-			"check_in_date": "2020-01-18"
+				"email": "john@you.com",
+				"name": "john",
+				"booking_date": "2019-11-11",
+				"resort_booking_id": "WBXSRO",
+				"check_in_date": "2020-01-18"
+
+			},
+			{
+				"email": "abby@you.com",
+				"name": "abby",
+				"booking_date": "2019-11-11",
+				"resort_booking_id": "ZBEHRU",
 
 
-		}]
+				"check_in_date": "2020-02-18"
+
+
+
+			},
+			{
+				"name": "sara",
+				"email": "sara@you.com",
+
+				"booking_date": "2019-11-12",
+				"resort_booking_id": "NPCUWS",
+
+				"check_in_date": "2020-01-26"
+
+			},
+			{
+				"name": "jane",
+				"email": "jane@you.com",
+				"booking_date": "2019-11-12",
+				"resort_booking_id": "CRUMSD",
+
+
+				"check_in_date": "2020-02-01"
+
+
+			},
+			{
+				"name": "dave",
+				"email": "dave@you.com",
+				"booking_date": "2019-11-20",
+				"resort_booking_id": "XUETQU",
+
+
+				"check_in_date": "2020-02-15"
+
+
+			}
+		]
 	},
 	"Purchase": [{
 			"id": 1,
