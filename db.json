@@ -1,43 +1,169 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "hello"
-      }
-    ],
-    "profile": {
-      "name": "typicode"
-    },
-    "Purchase":[
-        {    
-            "id": 1,
-            "reward": "5yrsurprise",
-            "quantity": 100,
-            "validity": "2020-04-30",
-            "invoice_no": "12345"
-        }
-    ],
-    "Allocation":[
-        {
-            "id": 2,
-    "purchase": {
-        "id": 1,
-        "reward": "5yrsurprise",
-        "quantity": 100,
-        "validity": "2020-04-30",
-        "invoice_no": "12345"
-    },
-    "quantity": 80
-        }
-    ],
-    "Redemption" :[{
-        "resort_booking_id":"WBXSRO",
-    "booking_date":"2019-09-12",
-    "reward_code_id":1,
-    "validity":"2020-04-10",
-    "check_in_date":"2019-10-18",
-    "reward_code":"7yrSurprise",
-    "email":"sarathchandra.a@myntra.com"
-    }]
+	"Purchase": [{
+			"id": 1,
+			"reward": "5yrsurprise",
+			"quantity": 100,
+			"validity": "2020-04-30",
+			"invoice_no": "RZIN012"
+		}, {
+			"id": 2,
+			"reward": "7yrsurprise",
+			"quantity": 100,
+			"validity": "2020-04-30",
+			"invoice_no": "RZIN013"
+		},
+		{
+			"id": 3,
+			"reward": "10yrsurprise",
+			"quantity": 100,
+			"validity": "2020-04-30",
+			"invoice_no": "RZIN014"
+		}
+	],
+	"Allocation": [{
+			"id": 20,
+			"purchase": {
+				"id": 1,
+				"reward": "5yrsurprise",
+				"quantity": 100,
+				"validity": "2020-04-30",
+				"invoice_no": "RZIN012"
+			},
+			"quantity": 80
+		},
+		{
+			"id": 21,
+			"purchase": {
+				"id": 1,
+				"reward": "5yrsurprise",
+				"quantity": 100,
+				"validity": "2020-04-30",
+				"invoice_no": "RZIN012"
+			},
+			"quantity": 20
+		},
+		{
+			"id": 22,
+			"purchase": {
+				"id": 2,
+				"reward": "7yrsurprise",
+				"quantity": 100,
+				"validity": "2020-04-30",
+				"invoice_no": "RZIN013"
+			},
+			"quantity": 100
+		}, {
+			"id": 23,
+			"purchase": {
+				"id": 3,
+				"reward": "10yrsurprise",
+				"quantity": 100,
+				"validity": "2020-04-30",
+				"invoice_no": "RZIN014"
+			},
+			"quantity": 30
+		}, {
+			"id": 24,
+			"purchase": {
+				"id": 3,
+				"reward": "10yrsurprise",
+				"quantity": 100,
+				"validity": "2020-04-30",
+				"invoice_no": "RZIN014"
+			},
+			"quantity": 30
+		}, {
+			"id": 25,
+			"purchase": {
+				"id": 3,
+				"reward": "10yrsurprise",
+				"quantity": 100,
+				"validity": "2020-04-30",
+				"invoice_no": "RZIN014"
+			},
+			"quantity": 40
+		}
+	],
+	"Redemption": [{
+		"resort_booking_id": "WBXSRO",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "7yrSurprise",
+		"email": "john@you.com"
+	}, {
+		"resort_booking_id": "ZBEHRU",
+		"booking_date": "2019-09-22",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "7yrSurprise",
+		"email": "abby@you.com"
+	}, {
+		"resort_booking_id": "NPCUWS",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "7yrSurprise",
+		"email": "sara@you.com"
+	}, {
+		"resort_booking_id": "CRUMSD",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "5yrSurprise",
+		"email": "jane@you.com"
+	}, {
+		"resort_booking_id": "XUETQU",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "5yrSurprise",
+		"email": "dave@you.com"
+	}, {
+		"resort_booking_id": "GYXRJT",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "10yrSurprise",
+		"email": "paul@you.com"
+	}, {
+		"resort_booking_id": "OSNZSY",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "10yrSurprise",
+		"email": "isha@you.com"
+	}, {
+		"resort_booking_id": "XTBWBU",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "5yrSurprise",
+		"email": "marry@you.com"
+	}, {
+		"resort_booking_id": "ZMYAJN",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "5yrSurprise",
+		"email": "mike@you.com"
+	}, {
+		"resort_booking_id": "TSPRDM",
+		"booking_date": "2019-09-12",
+		"reward_code_id": 1,
+		"validity": "2020-04-10",
+		"check_in_date": "2019-10-18",
+		"reward_code": "5yrSurprise",
+		"email": "andy@you.com"
+	}]
 
-  }
+}
