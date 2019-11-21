@@ -1,31 +1,43 @@
 {
+	"Overview": [
+
+	],
 	"Purchase": [{
 			"id": 1,
 			"reward": "5yrsurprise",
+			"reward_cat": "5yrs",
 			"quantity": 100,
+			"purchase_date": "2019-11-04",
 			"validity": "2020-04-30",
 			"invoice_no": "RZIN012"
 		}, {
 			"id": 2,
 			"reward": "7yrsurprise",
+			"reward_cat": "7yrs",
 			"quantity": 100,
+			"purchase_date": "2019-11-05",
 			"validity": "2020-04-30",
 			"invoice_no": "RZIN013"
 		},
 		{
 			"id": 3,
 			"reward": "10yrsurprise",
+			"reward_cat": "10yrs",
 			"quantity": 100,
+			"purchase_date": "2019-11-06",
 			"validity": "2020-04-30",
 			"invoice_no": "RZIN014"
 		}
 	],
 	"Allocation": [{
 			"id": 20,
+			"allocation_date": "2019-11-10",
 			"purchase": {
 				"id": 1,
 				"reward": "5yrsurprise",
+				"reward_cat": "5yrs",
 				"quantity": 100,
+				"purchase_date": "2019-11-04",
 				"validity": "2020-04-30",
 				"invoice_no": "RZIN012"
 			},
@@ -33,10 +45,13 @@
 		},
 		{
 			"id": 21,
+			"allocation_date": "2019-11-10",
 			"purchase": {
 				"id": 1,
 				"reward": "5yrsurprise",
+				"reward_cat": "5yrs",
 				"quantity": 100,
+				"purchase_date": "2019-11-04",
 				"validity": "2020-04-30",
 				"invoice_no": "RZIN012"
 			},
@@ -44,40 +59,52 @@
 		},
 		{
 			"id": 22,
+			"allocation_date": "2019-11-10",
 			"purchase": {
 				"id": 2,
 				"reward": "7yrsurprise",
+				"reward_cat": "7yrs",
 				"quantity": 100,
+				"purchase_date": "2019-11-05",
 				"validity": "2020-04-30",
 				"invoice_no": "RZIN013"
 			},
 			"quantity": 100
 		}, {
 			"id": 23,
+			"allocation_date": "2019-11-10",
 			"purchase": {
 				"id": 3,
 				"reward": "10yrsurprise",
+				"reward_cat": "10yrs",
 				"quantity": 100,
+				"purchase_date": "2019-11-06",
 				"validity": "2020-04-30",
 				"invoice_no": "RZIN014"
 			},
 			"quantity": 30
 		}, {
 			"id": 24,
+			"allocation_date": "2019-11-10",
 			"purchase": {
 				"id": 3,
 				"reward": "10yrsurprise",
+				"reward_cat": "10yrs",
 				"quantity": 100,
+				"purchase_date": "2019-11-06",
 				"validity": "2020-04-30",
 				"invoice_no": "RZIN014"
 			},
 			"quantity": 30
 		}, {
 			"id": 25,
+			"allocation_date": "2019-11-10",
 			"purchase": {
 				"id": 3,
 				"reward": "10yrsurprise",
+				"reward_cat": "10yrs",
 				"quantity": 100,
+				"purchase_date": "2019-11-06",
 				"validity": "2020-04-30",
 				"invoice_no": "RZIN014"
 			},
