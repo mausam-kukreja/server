@@ -5,22 +5,26 @@
 			"all": {
 				"purchase_count": 50,
 				"allocation_count": 10,
-				"redeemed_count": 5
+				"redeemed_count": 5,
+				"category":"all"
 			},
 			"1": {
 				"purchase_count": 20,
 				"allocation_count": 5,
-				"redeemed_count": 2
+				"redeemed_count": 2,
+				"category":"A"
 			},
 			"2": {
 				"purchase_count": 20,
 				"allocation_count": 4,
-				"redeemed_count": 2
+				"redeemed_count": 2,
+				"category":"B"
 			},
 			"3": {
 				"purchase_count": 10,
 				"allocation_count": 1,
-				"redeemed_count": 1
+				"redeemed_count": 1,
+				"category":"C"
 			}
 		}
 	}, {
