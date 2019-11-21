@@ -1,19 +1,23 @@
 {
-    "categories": [{
-		"id": 1,
-		"name": "A"
-	},{
-        "id": 2,
-		"name": "B"
-    },{
-        "id": 3,
-		"name": "C"
-    }],
-	"Overview": {
-		"purchase_count": 50,
+	"Overview":[ {
+        "id":"counts",
+		"data":{"purchase_count": 50,
 		"allocation_count": 10,
-		"redeemed_count": 5
-	},
+		"redeemed_count": 5}
+	},{
+        "id":"categories",
+        "data":[{
+            "id": 1,
+            "name": "A"
+        },{
+            "id": 2,
+            "name": "B"
+        },{
+            "id": 3,
+            "name": "C"
+        }]
+		
+	}],
 	"user": [{
 		"id": "Registerations",
 		"data": [
