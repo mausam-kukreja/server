@@ -44,28 +44,15 @@
 		  "data":[
 			 {
 				"email":"shivam@rizort.com",
-				"onward_flights":[
-				   {
-					  "first_name":"Shivam",
-					  "last_name":"Saxena",
-					  "departure_date":"2020-01-20 12:30:00",
-					  "arrival_date":"2020-01-20 13:45:00",
-					  "origin":"Bangalore",
-					  "destination":"Goa",
-					  "ticket":""
-				   }
-				],
-				"return_flights":[
-				   {
-					  "first_name":"Shivam",
-					  "last_name":"Saxena",
-					  "departure_date":"2020-01-25 12:30:00",
-					  "arrival_date":"2020-01-25 13:45:00",
-					  "origin":"Goa",
-					  "destination":"Bangalore",
-					  "ticket":""
-				   }
-				]
+				"first_name":"Shivam",
+				"last_name":"Saxena",
+				"departure_date":"2020-01-20 12:30:00",
+				"arrival_date":"2020-01-20 13:45:00",
+				"origin":"Bangalore",
+				"destination":"Goa",
+				"ticket":"",
+				"flight_type":1,
+				"flight_number":"6E-890"
 			 }
 		  ]
 	   }
