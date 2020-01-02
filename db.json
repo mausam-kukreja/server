@@ -1,478 +1,73 @@
 {
-	"Overview": [{
-		"id": "counts",
-		"data": {
-			"all": {
-				"purchase_count": 50,
-				"allocation_count": 10,
-				"redeemed_count": 5,
-				"category": "Overview"
-			},
-			"1": {
-				"purchase_count": 20,
-				"allocation_count": 5,
-				"redeemed_count": 2,
-				"category": "A"
-			},
-			"2": {
-				"purchase_count": 20,
-				"allocation_count": 4,
-				"redeemed_count": 2,
-				"category": "B"
-			},
-			"3": {
-				"purchase_count": 10,
-				"allocation_count": 1,
-				"redeemed_count": 1,
-				"category": "C"
-			}
-		}
-	}, {
-		"id": "categories",
-		"data": [{
-			"id": 1,
-			"name": "A"
-		}, {
-			"id": 2,
-			"name": "B"
-		}, {
-			"id": 3,
-			"name": "C"
-		}]
-
-	}],
-	"user": [{
-		"id": "Registerations",
-		"data": [
-
-			{
-				"email": "john@you.com",
-				"name": "John Smith",
-				"redeemed": true,
-				"registration_date": "2019-11-13",
-				"allocation_date": "2019-11-11"
-			},
-			{
-				"email": "abby@you.com",
-				"name": "Abby Elliot",
-				"redeemed": true,
-				"registration_date": "2019-11-12",
-				"allocation_date": "2019-11-11"
-			},
-			{
-				"email": "sara@you.com",
-				"name": "Sara Paxton",
-				"redeemed": true,
-				"registration_date": "2019-11-12",
-				"allocation_date": "2019-11-12"
-			},
-			{
-				"email": "jane@you.com",
-				"name": "Jane Asher",
-				"redeemed": true,
-				"registration_date": "2019-11-15",
-				"allocation_date": "2019-11-12"
-			},
-			{
-				"email": "dave@you.com",
-				"name": "Dave Mathews",
-				"redeemed": true,
-				"registration_date": "2019-11-21",
-				"allocation_date": "2019-11-20"
-			},
-			{
-				"email": "mary@you.com",
-				"name": "Mary Ann",
-				"redeemed": false,
-				"registration_date": "2019-11-22",
-				"allocation_date": "2019-11-20"
-			},
-			{
-				"email": "isha@you.com",
-				"name": "Isha Deol",
-				"redeemed": false,
-				"registration_date": "2019-11-21",
-				"allocation_date": "2019-11-20"
-			}
-		]
-	}, {
-		"id": "Allocations",
-		"data": [{
-				"id": 1,
-				"category": {
-					"id": 1,
-					"name": "A"
-				},
-				"email": "john@you.com",
-				"name": "John Smith",
-				"is_registered": true,
-				"redeemed": true,
-				"created": "2019-11-11",
-				"expiration_date": "2020-04-30"
-			},
-			{
-				"id": 2,
-				"category": {
-					"id": 1,
-					"name": "A"
-				},
-				"email": "abby@you.com",
-				"name": "Abby Elliot",
-				"is_registered": true,
-				"redeemed": true,
-				"created": "2019-11-11",
-				"expiration_date": "2020-04-30"
-			},
-			{
-				"id": 3,
-				"category": {
-					"id": 2,
-					"name": "B"
-				},
-				"email": "sara@you.com",
-				"name": "Sara Paxton",
-				"is_registered": true,
-				"redeemed": true,
-				"created": "2019-11-12",
-				"expiration_date": "2020-04-30"
-			},
-			{
-				"id": 4,
-				"category": {
-					"id": 2,
-					"name": "B"
-				},
-				"email": "jane@you.com",
-				"name": "Jane Asher",
-				"is_registered": true,
-				"redeemed": true,
-				"created": "2019-11-12",
-				"expiration_date": "2020-04-30"
-			},
-			{
-				"id": 5,
-				"category": {
-					"id": 3,
-					"name": "C"
-				},
-				"email": "dave@you.com",
-				"name": "Dave Mathews",
-				"is_registered": true,
-				"redeemed": true,
-				"created": "2019-11-20",
-				"expiration_date": "2020-04-30"
-			},
-			{
-				"id": 6,
-				"category": {
-					"id": 2,
-					"name": "B"
-				},
-				"email": "mary@you.com",
-				"name": "Mary Ann",
-				"is_registered": true,
-				"redeemed": false,
-				"created": "2019-11-20",
-				"expiration_date": "2020-04-30"
-			}, {
-				"id": 7,
-				"category": {
-					"id": 2,
-					"name": "B"
-				},
-				"email": "isha@you.com",
-				"name": "Isha Deol",
-				"is_registered": true,
-				"redeemed": false,
-				"created": "2019-11-20",
-				"expiration_date": "2020-04-30"
-			}, {
-				"id": 8,
-				"category": {
-					"id": 1,
-					"name": "A"
-				},
-				"email": "diana@you.com",
-				"name": "Diana Scully",
-				"is_registered": false,
-				"redeemed": false,
-				"created": "2019-11-20",
-				"expiration_date": "2020-04-30"
-			}, {
-				"id": 9,
-				"category": {
-					"id": 2,
-					"name": "A"
-				},
-				"email": "vinny@you.com",
-				"name": "Vinny Pooh",
-				"is_registered": false,
-				"redeemed": false,
-				"created": "2019-11-20",
-				"expiration_date": "2020-04-30"
-			}, {
-				"id": 10,
-				"category": {
-					"id": 2,
-					"name": "A"
-				},
-				"email": "gilly@you.com",
-				"name": "Gilly Paul",
-				"is_registered": false,
-				"redeemed": false,
-				"created": "2019-11-20",
-				"expiration_date": "2020-04-30"
-			}
-		]
-	}, {
-		"id": "Redeemtions",
-		"data": [{
-				"id": 22,
-				"email": "john@you.com",
-				"name": "John Smith",
-				"booking_date": "2019-11-11",
-				"resort_booking_id": "WBXSRO",
-				"category": {
-					"id": 1,
-					"name": "A"
-				},
-				"check_in_date": "2020-01-18"
-
-			},
-			{
-				"id": 23,
-				"email": "abby@you.com",
-				"name": "Abby Elliot",
-				"booking_date": "2019-11-11",
-				"resort_booking_id": "ZBEHRU",
-				"category": {
-					"id": 1,
-					"name": "A"
-				},
-
-
-				"check_in_date": "2020-02-18"
-
-
-
-			},
-			{
-				"id": 24,
-				"name": "Sara Paxton",
-				"email": "sara@you.com",
-
-				"booking_date": "2019-11-12",
-				"resort_booking_id": "NPCUWS",
-				"category": {
-					"id": 2,
-					"name": "B"
-				},
-
-				"check_in_date": "2020-01-26"
-
-			},
-			{
-				"id": 25,
-				"name": "Jane Asher",
-				"email": "jane@you.com",
-				"booking_date": "2019-11-12",
-				"resort_booking_id": "CRUMSD",
-				"category": {
-					"id": 2,
-					"name": "B"
-				},
-
-
-				"check_in_date": "2020-02-01"
-
-
-			},
-			{
-				"id": 26,
-				"name": "Dave Mathews",
-				"email": "dave@you.com",
-				"booking_date": "2019-11-20",
-				"resort_booking_id": "XUETQU",
-				"category": {
-					"id": 3,
-					"name": "C"
-				},
-
-
-				"check_in_date": "2020-02-15"
-
-
-			}
-		]
-	}],
-	"Purchase": [{
-			"id": 1,
-			"reward": "bravo-us",
-			"category": {
-				"name": "A",
-				"id": 1
-			},
-			"quantity": 20,
-			"created": "2019-11-01",
-			"validity": "2020-04-30",
-			"invoice_no": "RZYOU001"
-		}, {
-			"id": 2,
-			"reward": "wow-us",
-			"category": {
-				"name": "B",
-				"id": 2
-			},
-			"quantity": 20,
-			"created": "2019-11-01",
-			"validity": "2020-04-30",
-			"invoice_no": "RZYOU002"
-		},
-		{
-			"id": 3,
-			"reward": "champ",
-			"category": {
-				"name": "C",
-				"id": 3
-			},
-			"quantity": 10,
-			"created": "2019-11-01",
-			"validity": "2020-04-30",
-			"invoice_no": "RZYOU003"
-		}
+	"Overview":[
+	   {
+		  "destination":"bali",
+		  "no_of_people":100,
+		  "hotel":"Viceroy Ubud",
+		  "no_of_people_for_hotel":80,
+		  "no_of_people_for_flights":90
+	   }
 	],
-	"Allocation": [{
-			"id": 20,
-			"created": "2019-11-05",
-			"purchase": {
-				"id": 1,
-				"reward": "bravo-us",
-				"category": {
-					"name": "A",
-					"id": 1
-				},
-				"quantity": 20,
-				"created": "2019-11-01",
-				"validity": "2020-04-30",
-				"invoice_no": "RZYOU001"
-			},
-			"quantity": 3
-		},
-		{
-			"id": 21,
-			"created": "2019-11-10",
-			"purchase": {
-				"id": 1,
-				"reward": "bravo-us",
-				"category": {
-					"name": "A",
-					"id": 1
-				},
-				"quantity": 20,
-				"created": "2019-11-01",
-				"validity": "2020-04-30",
-				"invoice_no": "RZYOU001"
-			},
-			"quantity": 2
-		},
-		{
-			"id": 22,
-			"created": "2019-11-10",
-			"purchase": {
-				"id": 2,
-				"reward": "wow-us",
-				"category": {
-					"name": "B",
-					"id": 2
-				},
-				"quantity": 20,
-				"created": "2019-11-01",
-				"validity": "2020-04-30",
-				"invoice_no": "RZYOU002"
-			},
-			"quantity": 4
-		}, {
-			"id": 23,
-			"created": "2019-11-15",
-			"purchase": {
-				"id": 3,
-				"reward": "champ",
-				"category": {
-					"name": "C",
-					"id": 3
-				},
-				"quantity": 10,
-				"created": "2019-11-01",
-				"validity": "2020-04-30",
-				"invoice_no": "RZYOU003"
-			},
-			"quantity": 1
-		}
-	],
-	"Redemption": [{
-			"resort_booking_id": "WBXSRO",
-			"booking_date": "2019-11-11",
-			"category": {
-				"id": 1,
-				"name": "A"
-			},
-			"validity": "2020-04-30",
-			"check_in_date": "2020-01-18",
-			"reward": "bravo-us",
-			"name": "John Smith",
-			"email": "john@you.com"
-		},
-		{
-			"resort_booking_id": "ZBEHRU",
-			"booking_date": "2019-11-11",
-			"category": {
-				"id": 1,
-				"name": "A"
-			},
-			"validity": "2020-04-30",
-			"check_in_date": "2020-02-18",
-			"reward": "bravo-us",
-			"name": "Abby Elliot",
-			"email": "abby@you.com"
-		},
-		{
-			"resort_booking_id": "NPCUWS",
-			"booking_date": "2019-11-12",
-			"category": {
-				"id": 2,
-				"name": "B"
-			},
-			"validity": "2020-04-30",
-			"check_in_date": "2020-01-26",
-			"reward": "wow-us",
-			"name": "Sara Paxton",
-			"email": "sara@you.com"
-		},
-		{
-			"resort_booking_id": "CRUMSD",
-			"booking_date": "2019-11-12",
-			"category": {
-				"id": 2,
-				"name": "B"
-			},
-			"validity": "2020-04-30",
-			"check_in_date": "2020-02-01",
-			"reward": "wow-us",
-			"name": "Jane Asher",
-			"email": "jane@you.com"
-		},
-		{
-			"resort_booking_id": "XUETQU",
-			"booking_date": "2019-11-20",
-			"category": {
-				"id": 3,
-				"name": "C"
-			},
-			"validity": "2020-04-30",
-			"check_in_date": "2020-02-15",
-			"reward": "champ",
-			"name": "Dave Mathews",
-			"email": "dave@you.com"
-		}
+	"user":[
+	   {
+		  "id":"Registerations",
+		  "data":[
+			 {
+				"first_name":"Shivam",
+				"last_name":"Saxena",
+				"meal_preference":5,
+				"date_of_birth":"1995-04-29",
+				"passport_info":{
+				   "passport_front_page":"",
+				   "passport_back_page":"",
+				   "passport_no":"",
+				   "passport_issue_date":"",
+				   "passport_expiry_date":""
+				}
+			 }
+		  ]
+	   },
+	   {
+		  "id":"Hotels",
+		  "data":[
+			 {
+				"first_name":"Shivam",
+				"last_name":"Saxena",
+				"room_name":"Pool Villa",
+				"occupancy_type":"",
+				"check_in_date":"2020-01-20"
+			 }
+		  ]
+	   },
+	   {
+		  "id":"Flights",
+		  "data":[
+			 {
+				"email":"shivam@rizort.com",
+				"onward_flights":[
+				   {
+					  "first_name":"Shivam",
+					  "last_name":"Saxena",
+					  "departure_date":"2020-01-20 12:30:00",
+					  "arrival_date":"2020-01-20 13:45:00",
+					  "origin":"Bangalore",
+					  "destination":"Goa",
+					  "ticket":""
+				   }
+				],
+				"return_flights":[
+				   {
+					  "first_name":"Shivam",
+					  "last_name":"Saxena",
+					  "departure_date":"2020-01-25 12:30:00",
+					  "arrival_date":"2020-01-25 13:45:00",
+					  "origin":"Goa",
+					  "destination":"Bangalore",
+					  "ticket":""
+				   }
+				]
+			 }
+		  ]
+	   }
 	]
-}
+ }
