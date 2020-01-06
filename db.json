@@ -50,7 +50,7 @@
 				"arrival_date":"2020-01-20 13:45:00",
 				"origin":"Bangalore",
 				"destination":"Goa",
-				"ticket":"",
+				"ticket":"https://res.cloudinary.com/rizort-inc/image/upload/v1573712877/goa-caravela-hero-image.jpg",
 				"flight_type":1,
 				"flight_number":"6E-890"
 			 }
