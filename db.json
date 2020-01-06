@@ -18,9 +18,9 @@
 				"meal_preference":5,
 				"date_of_birth":"1995-04-29",
 				"passport_info":{
-				   "passport_front_page":"",
+				   "passport_front_page":"https://res.cloudinary.com/rizort-inc/image/upload/v1573712877/goa-caravela-hero-image.jpg",
 				   "passport_back_page":"",
-				   "passport_no":"",
+				   "passport_no":"12345678",
 				   "passport_issue_date":"",
 				   "passport_expiry_date":""
 				}
@@ -34,7 +34,7 @@
 				"first_name":"Shivam",
 				"last_name":"Saxena",
 				"room_name":"Pool Villa",
-				"occupancy_type":"",
+				"occupancy_type":"Single",
 				"check_in_date":"2020-01-20"
 			 }
 		  ]
